@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-
+# Test comment
 rooms = [
     {'id': 1, 'name': 'Lets learn python!'},
     {'id': 2, 'name': 'Design with me!'},
@@ -21,5 +21,5 @@ def room(request, pk):
         if i['id'] == int(pk):
             room = i
     context = {'room': room}
-    
+
     return render(request, 'base/room.html', context)
