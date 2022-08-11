@@ -5,4 +5,4 @@ Things to add:
 
 - Make the host of a room a participant
 
--Add edit comment functionality
+-  Add edit comment functionality
